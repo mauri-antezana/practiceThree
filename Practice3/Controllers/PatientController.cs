@@ -16,15 +16,9 @@ namespace UPB.Practice3.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody] Patient patient)
+        public string Post([FromBody] Patient patient)
         {
-            throw new System.NotImplementedException();
-        }
-
-        [HttpPut]
-        public void Put(int ci, [FromBody] Patient patient)
-        {
-            throw new System.NotImplementedException();
+            return _patientManager.GetPatientCode(patient);
         }
     }
 }
