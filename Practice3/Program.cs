@@ -1,5 +1,6 @@
 using UPB.AppLogic.Managers;
 using Serilog;
+using UPB.Pratice3.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseExceptionHandlerMiddleware();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

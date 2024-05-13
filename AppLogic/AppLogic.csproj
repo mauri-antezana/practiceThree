@@ -7,4 +7,8 @@
 	  <RootNamespace>UPB.AppLogic</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="3.1.1" />
+  </ItemGroup>
+
 </Project>
