@@ -5,3 +5,7 @@
 2024-05-12 19:59:07.225 -04:00 [INF] Starting up
 2024-05-12 19:59:40.195 -04:00 [INF] Starting up
 2024-05-12 19:59:55.221 -04:00 [ERR] Wrong input exception: Index and length must refer to a location within the string. (Parameter 'length')
+2024-05-12 21:54:05.865 -04:00 [INF] Starting up
+2024-05-12 21:56:00.240 -04:00 [INF] Starting up
+2024-05-13 12:19:21.472 -04:00 [INF] Starting up
+2024-05-13 12:20:44.730 -04:00 [ERR] Wrong input exception: Index and length must refer to a location within the string. (Parameter 'length')

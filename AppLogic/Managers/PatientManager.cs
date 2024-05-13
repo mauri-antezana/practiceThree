@@ -7,8 +7,6 @@ namespace UPB.AppLogic.Managers
 {
     public class PatientManager
     {
-        private Patient _patient;
-
         public string GetPatientCode(Patient patient)
         {
             try 
